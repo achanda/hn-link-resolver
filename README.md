@@ -1,4 +1,4 @@
 # hn-link-resolver
 
-Mixmax Regex
+Mixmax Regex <br>
 (?:news\.ycombinator\.com\/item\?id=)([0-9]+)$
