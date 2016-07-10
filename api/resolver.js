@@ -4,6 +4,7 @@ var request = require('request');
 module.exports = function(req, res) {
   var url = req.query.url.trim();
 
+  // docs for firebease HN api is here https://github.com/HackerNews/API
   var firebase_url = 'https://hacker-news.firebaseio.com/v0/item/';
 
   var matches = url.match(/(?:news\.ycombinator\.com\/item\?id=)([0-9]+)$/);
